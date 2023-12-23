@@ -1,6 +1,7 @@
 package main
 
 import (
+	"a/cmd/types"
 	"encoding/json"
 	"time"
 
@@ -8,14 +9,8 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
-type Task struct {
-	Name      string `json:"name"`
-	CreatedAt string `json:"createdAt"`
-	Done      bool   `json:"done"`
-}
-
 func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
-	task := Task{
+	task := types.Task{
 		Name:      "Buy bread",
 		CreatedAt: time.Now().String(),
 		Done:      false,
