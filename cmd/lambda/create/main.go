@@ -1,9 +1,10 @@
 package main
 
 import (
+	"a/cmd/types"
 	"encoding/json"
 	"time"
-	"a/cmd/types"
+
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 )
