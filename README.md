@@ -1,6 +1,6 @@
-# task-forge
+# lambda-dynamodb-example
 
-This is a sample template for task-forge - Below is a brief explanation of what we have generated for you:
+This is a sample template for lambda-dynamodb-example - Below is a brief explanation of what we have generated for you:
 
 ```bash
 .

@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
 Description: >
-  task-forge
+  lambda-dynamodb-example
 
-  Sample SAM Template for task-forge
+  Sample SAM Template for lambda-dynamodb-example
 
 Globals:
   Function:
@@ -71,4 +71,3 @@ Resources:
           KeyType: HASH
         - AttributeName: createdAt
           KeyType: RANGE
-      
